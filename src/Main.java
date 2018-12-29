@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class Main {
 
@@ -12,7 +11,6 @@ public class Main {
                 ,"Артемий Филиппович: Вот не было заботы, так подай!"
                 ,"Лука Лукич: Господи боже! еще и с секретным предписаньем!"};
         StringBuilder result = new StringBuilder();
-        StringBuilder tempSearch = new StringBuilder();
         int regexLength;
         for (int i=0;i<roles.length;i++) {
             //ищем строки только нужной роли
