@@ -2,7 +2,7 @@ public class NegativeTextAnalyzer extends KeywordAnalyzer implements TextAnalyze
     private String[] keywords;
 
     public NegativeTextAnalyzer() {
-        this.keywords = new String[] {":(","=(",":|"};
+        this.keywords = new String[] {".*:\\(.*",".*=\\(.*",".*:\\|.*"};
     }
     protected String[] getKeywords() {
         return keywords;

@@ -1,3 +1,4 @@
+
 abstract class KeywordAnalyzer implements TextAnalyzer {
 
     protected abstract String[] getKeywords();
